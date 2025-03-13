@@ -24,7 +24,7 @@ install_xfce () {
 }
 
 install_rdp () {
-apt install -y xvfb xserver-xorg-video-dummy xbase-clients python3-psutil python3-packaging python3-xdg libutempter0
+apt install -y xvfb xserver-xorg-video-dummy xbase-clients python3-psutil python3-packaging python3-xdg libutempter0 pkexec
 wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
 dpkg -i chrome-remote-desktop_current_amd64.deb
 rm -f chrome-remote-desktop_current_amd64.deb
